@@ -28,6 +28,7 @@ Contributors names and contact info
 
 * Jonathan M. Radai 207017443
 * Amit Delshad 213101124
+* May Masasa 325107894
 
 ## Demo User 
 * username: sokka
