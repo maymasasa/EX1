@@ -26,8 +26,7 @@ chat using react
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+* Jonathan M. Radai 207017443
 
 ## Demo User 
 * username: sokka
