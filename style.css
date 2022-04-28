@@ -1,0 +1,398 @@
+body {
+  background: linear-gradient(180deg, #0B4619 20%, #DDDDDD 0.1%, #DDDDDD 80%);
+  margin: 0;
+  font-family: 'system-ui';
+  font-style: normal;
+}
+
+font {
+  font-family: arial;
+  font-size: 14px;
+}
+
+.Login {
+  position: relative;
+  top: 5%;
+  border: none;
+  margin: auto;
+  height: 200px;
+  width: 700px;
+  background-color: #EFEFEF;
+}
+
+.LoginTable {
+  position: relative;
+  top: 5px;
+  font-size: 14px;
+  border-collapse: separate;
+  border-spacing: 50 15px;
+  text-align: center;
+  transform: translateX(25%);
+}
+
+.BlueBtn {
+  background-color: #5463FF;
+  width: 100px;
+  border: none;
+}
+
+.BlueBtn:hover {
+  background-color: gold;
+}
+
+.chat {
+  position: relative;
+  top: 5%;
+  border: none;
+  margin: auto;
+  height: 713px;
+  width: 1200px;
+  background-color: #EFEFEF;
+}
+
+.UpperScale {
+  background-color: #DFDFDE;
+  height: 70px;
+  width: 450px;
+  position: relative;
+}
+
+.ImgBtn {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  border: none;
+}
+
+.ImgInsideBtn {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+
+#AddFriendBtn {
+  background-color: #DFDFDE;
+  width: 24px;
+  height: 24px;
+  border: none;
+  position: absolute;
+  top: 52%;
+  left: 92%;
+  margin: auto;
+}
+
+.ProfilePictureBtn {
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+  border-color: #383838;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.ProfilePicture {
+  position: relative;
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  bottom: 1px;
+  right: 6px;
+}
+
+.UserNameDisplay {
+  font: arial;
+  font-size: 15px;
+}
+
+.UserNameBtn {
+  position: relative;
+  left: 50px;
+  top: 10px;
+  border: none;
+  background-color: inherit;
+}
+.UniChat {
+  position: absolute;
+  background-color: #D9CAB3;
+  top: 0;
+  left: 450px;
+  height: 713px;
+  width: 750px;
+}
+.Contact{
+  height: 80px;
+  border-top: 10px;
+}
+#ContactList-wrapper {
+  position: relative;
+  background: #F2EFEA;
+  height: 630px;
+}
+#ContactList-scroll {
+  overflow-x: hidden;
+  height: 643px;
+  width: 450px;
+  overflow-y: auto;
+}
+#ContactList-wrapper table {
+  width:100%;
+}
+#ContactList-wrapper table * {
+  background: #E8EAE6;
+}
+#ContactList-wrapper :hover{
+  background-color: #0B4619;
+}
+.NoChat {
+  position: absolute;
+  background-color: #D9CAB3;
+  top: 0;
+  left: 450px;
+  height: 713px;
+  width: 750px;
+}
+.Uchat {
+  position: relative;
+  background-color: #F2EFEA;
+  height: 643px;
+  width: 750px;
+}
+.UchatUpperScale {
+  position: relative;
+  background-color: #70af7c;
+  height: 70px;
+  width: 750px;
+}
+.UchatLowerScale{
+  position: fixed;
+  background-color: #70af7c;
+  top: 640px;
+  height: 83px;
+  width: 750px;
+}
+#PaperclipBtn{
+  position: relative;
+  background-color: #70af7c;
+  top: 25px;
+  left: 25px;
+
+}
+#SendBtn{
+  position: relative;
+  left: 80px;
+  top: -30px;
+}
+#ChatInputBar{
+  position: relative;
+  left: 70px;
+  top: -10px;
+  width: 600px;
+}
+#UserNameDisplayInChat{
+  position: relative;
+  background-color: #70af7c;
+}
+.UserNameD{
+  position: relative;
+  left: 140px;
+}
+.Openchatbtn{
+  width: 100%;
+  box-sizing: 1px;
+  border-color: #d2d2d2;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background: #E8EAE6;
+}
+.Openchatbtn:hover{
+  background-color: #70af7c;
+}
+.Recive{
+  text-align: right;
+}
+.Video{
+  max-width: 200px;
+  max-height: 200px;
+}
+.Audio{
+  position: relative;
+  height: 150px;
+  bottom: 35px;
+}
+.Image{
+  max-width: 200px;
+  max-height: 200px;
+}
+.Pchat {
+  position:absolute;
+  height: 100%;
+  width: 750px;
+  background-color: #70af7c;
+}
+.container {
+  padding: 5% 5%;
+}
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: fixed;
+	height: fit-content;
+  background-color: #70af7c;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: #70af7c transparent transparent transparent;
+}
+.tri-right.border.btm-left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+  right: auto;
+  top: auto;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}
+.tri-right.border.right-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.right-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 0px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #70af7c transparent transparent transparent;
+}
+.talktext{
+  padding: 1em;
+	text-align: right;
+  line-height: 1.5em;
+}
+.talktext p{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+.talktextRecive{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+time{
+  align-items: baseline;
+}
+.messages{
+  height: 570px;
+  overflow-y: auto;
+}
+.LastMessage{
+  position: relative;
+  max-width: 200px;
+  max-height: 40px;
+}
+.LastMessageTime{
+  position: absolute;
+  bottom: 20px;
+  left: 270px;
+}
+.LastMessage{
+  position: fixed;
+  left: 280px;
+}
+.UploadBar{
+  position: absolute;
+  bottom: 75px;
+  left: 5px;
+  width: 100px;
+  height: 30px;
+  background-color: #70af7c;
+  border-radius: 30%;
+  border: 1px solid #383838;
+}
+.Audiobtn{
+  position: absolute;
+  background-color: #70af7c;
+  border: none;
+  top: 5px;
+  left: 5px;
+}
+.Imagebtn{
+  position: absolute;
+  background-color: #70af7c;
+  border: none;
+  top: 5px;
+  left: 35px;
+}
+.Videobtn{
+  position: absolute;
+  background-color: #70af7c;
+  border: none;
+  top: 5px;
+  left: 65px;
+}
+.UploadFile{
+  position: absolute;
+  height: 50px;
+  width: 300px;
+  bottom: 50px;
+  background-color: #70af7c;
+  border-radius: 22%;
+  border: 1px solid #383838;
+}
+.Uploadbtn{
+  position: absolute;
+  top: 7px;
+  left: 210px;
+}
+.UploadInput{
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+.StartRecord{
+  position: absolute;
+  top: 7px;
+  left: 35px;
+}
+.StopRecord{
+  position: absolute;
+  top: 7px;
+  left: 165px;
+}
