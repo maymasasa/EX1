@@ -8,17 +8,17 @@ chat using react
 
 ### Dependencies
 
-*react
+* react
 
 ### Installing
 
-*git clone https://github.com/maymasasa/EX1.git
-*cd EX1
-*npm install 
+* git clone https://github.com/maymasasa/EX1.git
+* cd EX1
+* npm install 
 
 ### Executing program
 
-*npm start
+* npm start
 
 
 
@@ -30,5 +30,5 @@ ex. Dominique Pizzie
 ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Demo User 
-*username: sokka
-*password: 12345678
+* username: sokka
+* password: 12345678
