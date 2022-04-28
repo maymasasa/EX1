@@ -27,6 +27,7 @@ chat using react
 Contributors names and contact info
 
 * Jonathan M. Radai 207017443
+* Amit Delshad 213101124
 
 ## Demo User 
 * username: sokka
